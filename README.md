@@ -13,20 +13,7 @@ This repo includes:
 
 ## 🧠 Projects Included
 
-| Project | Description |
-|--------|-------------|
-| `01_linear_regression` | Predict continuous values using simple linear regression |
-| `02_logistic_regression` | Binary classification using logistic regression |
-| `03_decision_tree` | Classify data using decision trees |
-| `04_kmeans_clustering` | Group data with K-Means clustering |
-| `05_knn_classifier` | Classify with K-Nearest Neighbors algorithm |
-| `06_naive_bayes` | Use Naive Bayes for spam detection or similar tasks |
-| `07_svm_classifier` | Implement Support Vector Machines for classification |
-| `08_neural_network_mnist` | Build a basic neural network to classify MNIST digits |
-| `09_sentiment_analysis_nlp` | Perform sentiment analysis on text data using NLP techniques |
-| `10_recommendation_system` | Create a simple recommendation system using collaborative filtering |
 
-> Feel free to explore the folders in the repository for code, datasets, and explanations.
 
 ## 📦 Requirements
 
