@@ -1,34 +1,35 @@
-# 🤖 Basic AI/ML Projects in Python
+# 🖐️ Hand Gesture Drawing App using OpenCV & MediaPipe
 
-Welcome to the **Basic AI/ML Projects** repository! This collection includes beginner-friendly Artificial Intelligence and Machine Learning projects built using Python. Each project is designed to help learners understand core concepts and practical implementation of machine learning algorithms.
+This project is a virtual drawing application that uses hand gestures to draw on the screen using your webcam. It leverages **MediaPipe** for hand landmark detection and **OpenCV** for drawing and video processing.
 
-## 📚 What You'll Find
+## 🚀 Features
 
-This repo includes:
-- Clean and well-documented Python code
-- Jupyter Notebooks for step-by-step exploration
-- Example datasets (where applicable)
-- Visualizations and result interpretation
-- Explanations of the underlying algorithms
+- Draw on the screen using your **index finger**
+- Use a **pinch gesture** (index and middle fingers close together) to draw
+- **Clear the screen** with a key press
+- Real-time webcam interaction
+- Fullscreen drawing canvas
 
-## 🧠 Projects Included
+---
+
+## 🧠 How It Works
+
+- The application detects hand landmarks using **MediaPipe Hands**.
+- It tracks the **index fingertip (landmark 8)** and **middle fingertip (landmark 12)**.
+- When the distance between them is less than a threshold (indicating a pinch gesture), it draws on the screen by connecting the previous point with the current point.
+- Drawing happens on a transparent canvas that's blended with the video feed in real-time.
+
+---
 
 
+## 🧰 Requirements
 
-## 📦 Requirements
+- Python 3.x
+- OpenCV
+- MediaPipe
+- NumPy
 
-- Python 3.7+
-- Jupyter Notebook (recommended)
-- Common ML libraries:
-  - `numpy`
-  - `pandas`
-  - `matplotlib`
-  - `seaborn`
-  - `scikit-learn`
-  - `tensorflow` or `keras` (for deep learning projects)
-  - `nltk` or `spacy` (for NLP projects)
-
-You can install the dependencies using:
+### 📦 Installation
 
 ```bash
-pip install -r requirements.txt
+pip install opencv-python mediapipe numpy
