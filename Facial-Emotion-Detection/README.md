@@ -30,12 +30,3 @@ The script detects and displays:
 - **Emotion** (e.g., happy, sad, angry, neutral)
 
 ---
-
-## 📦 Installation
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/face-emotion-gender-detection.git
-cd face-emotion-gender-detection
-```
